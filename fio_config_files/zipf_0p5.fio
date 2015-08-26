@@ -1,0 +1,16 @@
+# Example job file for using a zipf distribution instead
+# of a purely random workload where each block is read
+# or written once.
+[job]
+ioengine=windowsaio
+thread
+iodepth=16
+directory=Z\:\
+filename=fio_job_0p5
+rw=randread
+norandommap
+filesize=512m
+bs=4k
+random_distribution=zipf:0.5
+runtime=60
+time_based

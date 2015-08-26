@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>-t 123 -a fagnes -f C:\Users\t-ioans\Documents\oktopus\oktopus\src\cs\IoFlow\IOFlowController\config-ioan-routing.txt</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <StartArguments>-t 123 -a esses -f C:\Users\t-ioans\Documents\oktopus\oktopus\src\cs\IoFlow\IOFlowController\config-t-ioans-ioflow.txt</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <StartArguments>-t 123 -a esses -f C:\Moirai_Code\IOFlowController\Moirai-cache-config.txt</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <StartArguments>-t 123 -a esses -f C:\Users\t-ioans\Documents\oktopus\oktopus\src\cs\IoFlow\IOFlowController\config-t-ioans-ioflow.txt</StartArguments>
+  </PropertyGroup>
+</Project>

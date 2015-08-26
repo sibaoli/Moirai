@@ -1,0 +1,9 @@
+# Moirai-cache-config.txt
+
+# RECORD_TYPE   VM_NAME_OR_SID  HYPER-V-SRV   SHARE_NAME                  	VOL_NAME               FLOW_CACHE BLOCK-SIZE  WRITE_POL WRITE-CACHE FILE_CACHE_SIZE MIN_ALLOC CACHE_CURVE_LOC TENANT_ID E2E_BW
+# -----------   --------------  ------------- ----------                  --------                --- --------- --- ---
+#D-VM-FILE-VOL Administrator ioan-vm-dev1 \\ioan-vm-dev2\dev2_experiments_Share\iobw.tst \Device\Mup 536870912 4096 write-through CacheWrites 536870912 0 C:\Moirai_Code\IOFlowController\Curves\Curve_IOMeter_2GB_disk.csv 1 104857600
+
+
+D-VM-FILE-VOL Administrator ioan-vm-dev1 \\ioan-vm-dev2\dev2_experiments_Share\fio_job_0p5 \Device\Mup 0 4096 write-through CacheWrites 536870912 0 C:\Moirai_Code\IOFlowController\Curves\fio_zipf_2GB_0p5.csv 1 80551608
+D-VM-FILE-VOL Administrator ioan-vm-dev1 \\ioan-vm-dev2\dev2_experiments_Share\fio_job_1p1 \Device\Mup 0 4096 write-through CacheWrites 536870912 0 C:\Moirai_Code\IOFlowController\Curves\fio_zipf_2GB_1p1.csv 1 117293711
